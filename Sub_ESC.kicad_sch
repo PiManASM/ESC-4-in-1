@@ -120,7 +120,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 175.26 110.49)
+			(xy 115.57 110.49) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -130,7 +130,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 175.26 82.55)
+			(xy 115.57 82.55) (xy 175.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -140,7 +140,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 175.26 80.01)
+			(xy 115.57 80.01) (xy 175.26 80.01)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 175.26 85.09)
+			(xy 115.57 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 99.06) (xy 175.26 99.06)
+			(xy 115.57 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +170,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 105.41) (xy 175.26 105.41)
+			(xy 115.57 105.41) (xy 175.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 110.49) (xy 93.98 110.49)
+			(xy 72.39 110.49) (xy 77.47 110.49)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +190,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 175.26 96.52)
+			(xy 115.57 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +200,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 93.98 78.74)
+			(xy 67.31 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
@@ -210,7 +210,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 175.26 107.95)
+			(xy 115.57 107.95) (xy 175.26 107.95)
 		)
 		(stroke
 			(width 0)
@@ -220,7 +220,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 93.98) (xy 175.26 93.98)
+			(xy 115.57 93.98) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -230,7 +230,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 93.98 83.82)
+			(xy 67.31 83.82) (xy 77.47 83.82)
 		)
 		(stroke
 			(width 0)
@@ -249,7 +249,7 @@
 		(uuid "ca679bce-a47c-4d18-a23c-461ccba0ce5d")
 	)
 	(label "VGND"
-		(at 88.9 110.49 180)
+		(at 72.39 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -260,7 +260,7 @@
 	)
 	(hierarchical_label "DShot"
 		(shape input)
-		(at 83.82 78.74 180)
+		(at 67.31 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -271,7 +271,7 @@
 	)
 	(hierarchical_label "Batt_Sense"
 		(shape input)
-		(at 83.82 83.82 180)
+		(at 67.31 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -282,7 +282,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 93.98 91.44 90)
+		(at 77.47 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -290,7 +290,7 @@
 		(dnp no)
 		(uuid "c85bd461-6e44-4419-8c58-6ce79b0077f6")
 		(property "Reference" "SWCLK1"
-			(at 86.868 91.44 90)
+			(at 70.358 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,7 +298,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 84.074 90.424 90)
+			(at 67.564 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,7 +307,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 93.98 86.36 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -316,7 +316,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 86.36 0)
+			(at 77.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +325,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 91.44 0)
+			(at 77.47 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +347,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 93.98 93.98 90)
+		(at 77.47 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -355,7 +355,7 @@
 		(dnp no)
 		(uuid "edbc39b1-a52e-474a-809a-49c406004237")
 		(property "Reference" "SWDIO1"
-			(at 86.868 93.98 90)
+			(at 70.358 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +363,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 90.678 91.44 90)
+			(at 74.168 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -372,7 +372,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 93.98 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,7 +381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 88.9 0)
+			(at 77.47 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 93.98 93.98 0)
+			(at 77.47 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +549,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 74.93)
+		(at 77.47 74.93)
 		(size 38.1 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -561,7 +561,7 @@
 		)
 		(uuid "ce85d30a-5b72-4428-9ad8-811f15b427f8")
 		(property "Sheetname" "MCU"
-			(at 93.98 74.2184 0)
+			(at 77.47 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +570,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 93.98 116.1546 0)
+			(at 77.47 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +579,7 @@
 			)
 		)
 		(pin "Batt_Sense" input
-			(at 93.98 83.82 180)
+			(at 77.47 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +589,7 @@
 			(uuid "ffc990c8-4d75-49b9-8762-c8c640980cb5")
 		)
 		(pin "ZC_B" input
-			(at 132.08 93.98 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +599,7 @@
 			(uuid "99dc56c6-74f4-4c68-99ec-b7e461a501ac")
 		)
 		(pin "ZC_C" input
-			(at 132.08 105.41 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +609,7 @@
 			(uuid "f1007a2c-4529-4114-b28e-6205a9995ca3")
 		)
 		(pin "ZC_A" input
-			(at 132.08 80.01 0)
+			(at 115.57 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +619,7 @@
 			(uuid "37996bc3-35f8-421b-bd1c-fd56ce63f60a")
 		)
 		(pin "SWD_IO" input
-			(at 93.98 93.98 180)
+			(at 77.47 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +629,7 @@
 			(uuid "fa1598e9-07a7-4687-bb5c-b57b139bb5e7")
 		)
 		(pin "SWD_CLK" input
-			(at 93.98 91.44 180)
+			(at 77.47 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -639,7 +639,7 @@
 			(uuid "3e021a76-c67e-49d7-8be6-a9c1c8e69285")
 		)
 		(pin "DShot" input
-			(at 93.98 78.74 180)
+			(at 77.47 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +649,7 @@
 			(uuid "64f67d34-8e6f-45ea-b277-e2f1ed64028c")
 		)
 		(pin "PWM_L_B" input
-			(at 132.08 99.06 0)
+			(at 115.57 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,7 +659,7 @@
 			(uuid "8a4a4474-5d9f-4847-a35e-2064b9b575cf")
 		)
 		(pin "PWM_L_A" input
-			(at 132.08 85.09 0)
+			(at 115.57 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,7 +669,7 @@
 			(uuid "40c34769-29cc-4098-a66d-cf709067ed16")
 		)
 		(pin "PWM_H_A" input
-			(at 132.08 82.55 0)
+			(at 115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +679,7 @@
 			(uuid "2b6e7722-fca8-4584-8d10-16dcf0b9e68f")
 		)
 		(pin "PWM_H_C" input
-			(at 132.08 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -689,7 +689,7 @@
 			(uuid "60082c09-c9b2-482e-9459-7da1c5361c5c")
 		)
 		(pin "PWM_H_B" input
-			(at 132.08 96.52 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +699,7 @@
 			(uuid "89270c1f-2919-4282-aedc-8559fe8d631d")
 		)
 		(pin "VGND" input
-			(at 93.98 110.49 180)
+			(at 77.47 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -709,7 +709,7 @@
 			(uuid "63b4c2e8-7420-4c48-bb39-8c8379b5e005")
 		)
 		(pin "PWM_L_C" input
-			(at 132.08 110.49 0)
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

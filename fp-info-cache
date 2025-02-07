@@ -1,4 +1,4 @@
-24647747913198684
+24642533772097933
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91048,6 +91048,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM32 G0
+UFQFPN-28
+
+STM32G071GBU3TR 
+0
+28
+28
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -92721,34 +92728,6 @@ Logo WEEE
 0
 0
 0
-TI Driver
-RGE0024B-IPC_A
-
-DRV8300DRGER 
-0
-25
-25
-TI Driver
-RGE0024B-IPC_B
-
-DRV8300DRGER 
-0
-25
-25
-TI Driver
-RGE0024B-IPC_C
-
-DRV8300DRGER 
-0
-25
-25
-TI Driver
-RGE0024B-MFG
-
-DRV8300DRGER 
-0
-30
-30
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
