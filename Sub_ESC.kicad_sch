@@ -1,0 +1,729 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "78076edb-3d96-420e-a99d-026de51b0215")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 210.82 109.22) (xy 222.25 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076b2b67-0d2b-4c86-8945-4454b3ce13f9")
+	)
+	(wire
+		(pts
+			(xy 132.08 110.49) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e3a238e-06dd-4594-b32a-0206c8e94d1e")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 175.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34aa4f69-ce53-44e9-bb88-8f8e2563afff")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 175.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389e1c50-01bb-48c7-9b49-1ec3ac081855")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfa2a6e-78af-40b1-9f24-f8fcac0e09d4")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740fccf6-08af-4767-acbe-5b86ea826af3")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 175.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79518bff-24a4-4654-b710-a0da2308bf0d")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 93.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52b17af-2aba-4103-8000-0322d03d0a34")
+	)
+	(wire
+		(pts
+			(xy 132.08 96.52) (xy 175.26 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccb53b5-e3d5-4bab-a4f3-d9de42cf3f56")
+	)
+	(wire
+		(pts
+			(xy 83.82 78.74) (xy 93.98 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46c349c-97bc-4e2c-932f-4efa2d28ac30")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfbd5395-ac67-460e-b292-e73c8251556b")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 175.26 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79c9314-8a03-49c3-b718-fd95731086de")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9db6cbc-7e1c-4d93-9367-632d2c1978f5")
+	)
+	(label "VGND"
+		(at 222.25 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca679bce-a47c-4d18-a23c-461ccba0ce5d")
+	)
+	(label "VGND"
+		(at 88.9 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea132f58-4a6b-4992-af13-a3c4bc37210d")
+	)
+	(hierarchical_label "DShot"
+		(shape input)
+		(at 83.82 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b433244-280e-4328-a7cb-51ab5a7c16cc")
+	)
+	(hierarchical_label "Batt_Sense"
+		(shape input)
+		(at 83.82 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "909b2fd4-c6ba-4242-9970-9ab2f7f21992")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c85bd461-6e44-4419-8c58-6ce79b0077f6")
+		(property "Reference" "SWCLK1"
+			(at 86.868 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 84.074 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89d0a1b1-c90c-47d7-9bd1-3d0baa904b5a")
+		)
+		(instances
+			(project ""
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
+					(reference "SWCLK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edbc39b1-a52e-474a-809a-49c406004237")
+		(property "Reference" "SWDIO1"
+			(at 86.868 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.678 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19067e13-f941-4d0a-951e-17447f9c52cb")
+		)
+		(instances
+			(project ""
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
+					(reference "SWDIO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 74.93)
+		(size 35.56 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19fc4039-501c-46b5-9242-d3e591e070ab")
+		(property "Sheetname" "Driver Output"
+			(at 175.26 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Driver Output.kicad_sch"
+			(at 175.26 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ZC_B" input
+			(at 175.26 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "753d6623-d9bd-40e8-8478-66f3d948af95")
+		)
+		(pin "ZC_A" input
+			(at 175.26 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3656ba43-1650-4e4b-b448-7bd84cfddec0")
+		)
+		(pin "PWM_L_C" input
+			(at 175.26 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1fcce9be-635f-4e73-a84a-1e610c58d098")
+		)
+		(pin "PWM_L_B" input
+			(at 175.26 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eabf8630-b58f-4b75-b729-3ec6ef922e1e")
+		)
+		(pin "PWM_H_C" input
+			(at 175.26 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "951c01d2-fc07-4d02-b74a-742de5dc9cd9")
+		)
+		(pin "PWM_H_B" input
+			(at 175.26 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fce38ddf-e5a2-4b64-aade-cb535328fb8c")
+		)
+		(pin "PWM__H_A" input
+			(at 175.26 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fbb4e63e-2c80-4b91-9ff7-d92506bcc29a")
+		)
+		(pin "PWM__L_A" input
+			(at 175.26 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1af8ea5-2738-4dd7-945f-6ed7e56c504c")
+		)
+		(pin "ZC_C" input
+			(at 175.26 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db6e08af-bacf-49e2-a085-dc7051caaff5")
+		)
+		(pin "VGND" input
+			(at 210.82 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0aeddc05-1108-400a-a092-3e79247c9649")
+		)
+		(instances
+			(project "ESC"
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 74.93)
+		(size 38.1 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce85d30a-5b72-4428-9ad8-811f15b427f8")
+		(property "Sheetname" "MCU"
+			(at 93.98 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 93.98 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Batt_Sense" input
+			(at 93.98 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ffc990c8-4d75-49b9-8762-c8c640980cb5")
+		)
+		(pin "ZC_B" input
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "99dc56c6-74f4-4c68-99ec-b7e461a501ac")
+		)
+		(pin "ZC_C" input
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f1007a2c-4529-4114-b28e-6205a9995ca3")
+		)
+		(pin "ZC_A" input
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37996bc3-35f8-421b-bd1c-fd56ce63f60a")
+		)
+		(pin "SWD_IO" input
+			(at 93.98 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa1598e9-07a7-4687-bb5c-b57b139bb5e7")
+		)
+		(pin "SWD_CLK" input
+			(at 93.98 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e021a76-c67e-49d7-8be6-a9c1c8e69285")
+		)
+		(pin "DShot" input
+			(at 93.98 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64f67d34-8e6f-45ea-b277-e2f1ed64028c")
+		)
+		(pin "PWM_L_B" input
+			(at 132.08 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a4a4474-5d9f-4847-a35e-2064b9b575cf")
+		)
+		(pin "PWM_L_A" input
+			(at 132.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40c34769-29cc-4098-a66d-cf709067ed16")
+		)
+		(pin "PWM_H_A" input
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b6e7722-fca8-4584-8d10-16dcf0b9e68f")
+		)
+		(pin "PWM_H_C" input
+			(at 132.08 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "60082c09-c9b2-482e-9459-7da1c5361c5c")
+		)
+		(pin "PWM_H_B" input
+			(at 132.08 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "89270c1f-2919-4282-aedc-8559fe8d631d")
+		)
+		(pin "VGND" input
+			(at 93.98 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "63b4c2e8-7420-4c48-bb39-8c8379b5e005")
+		)
+		(pin "PWM_L_C" input
+			(at 132.08 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5b93e18-f410-47a6-b30f-bf26e907b979")
+		)
+		(instances
+			(project "ESC"
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
+					(page "7")
+				)
+			)
+		)
+	)
+)
