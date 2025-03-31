@@ -4,110 +4,7 @@
 	(generator_version "8.0")
 	(uuid "78076edb-3d96-420e-a99d-026de51b0215")
 	(paper "A4")
-	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
+	(lib_symbols)
 	(wire
 		(pts
 			(xy 210.82 109.22) (xy 222.25 109.22)
@@ -117,6 +14,16 @@
 			(type default)
 		)
 		(uuid "076b2b67-0d2b-4c86-8945-4454b3ce13f9")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 77.47 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a2c4a0-014e-4b43-b4b0-15a985ae2311")
 	)
 	(wire
 		(pts
@@ -177,6 +84,16 @@
 			(type default)
 		)
 		(uuid "79518bff-24a4-4654-b710-a0da2308bf0d")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 77.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0c4e5e-91bf-422f-b9ba-3f7c43d4cb42")
 	)
 	(wire
 		(pts
@@ -269,6 +186,17 @@
 		)
 		(uuid "2b433244-280e-4328-a7cb-51ab5a7c16cc")
 	)
+	(hierarchical_label "SWD_CLK_X"
+		(shape input)
+		(at 73.66 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b8aebde-b931-4080-8b63-f645120252a4")
+	)
 	(hierarchical_label "Batt_Sense"
 		(shape input)
 		(at 67.31 83.82 180)
@@ -280,135 +208,16 @@
 		)
 		(uuid "909b2fd4-c6ba-4242-9970-9ab2f7f21992")
 	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c85bd461-6e44-4419-8c58-6ce79b0077f6")
-		(property "Reference" "SWCLK1"
-			(at 70.358 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "SWD_IO_X"
+		(shape input)
+		(at 73.66 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "TestPoint"
-			(at 67.564 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 77.47 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89d0a1b1-c90c-47d7-9bd1-3d0baa904b5a")
-		)
-		(instances
-			(project ""
-				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
-					(reference "SWCLK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "edbc39b1-a52e-474a-809a-49c406004237")
-		(property "Reference" "SWDIO1"
-			(at 70.358 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.168 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 77.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19067e13-f941-4d0a-951e-17447f9c52cb")
-		)
-		(instances
-			(project ""
-				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
-					(reference "SWDIO1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "acc4e9b0-2b08-425e-b97d-a9ff29c18977")
 	)
 	(sheet
 		(at 175.26 74.93)
@@ -448,7 +257,7 @@
 				)
 				(justify left)
 			)
-			(uuid "753d6623-d9bd-40e8-8478-66f3d948af95")
+			(uuid "8b5f3282-0040-43ac-ac74-c622bf918014")
 		)
 		(pin "ZC_A" input
 			(at 175.26 80.01 180)
@@ -458,7 +267,7 @@
 				)
 				(justify left)
 			)
-			(uuid "3656ba43-1650-4e4b-b448-7bd84cfddec0")
+			(uuid "a77d8275-71a4-495a-b5cd-1e9a4ef94232")
 		)
 		(pin "PWM_L_C" input
 			(at 175.26 110.49 180)
@@ -468,7 +277,7 @@
 				)
 				(justify left)
 			)
-			(uuid "1fcce9be-635f-4e73-a84a-1e610c58d098")
+			(uuid "ed6f59b5-f634-4417-9a07-53e51c7bd8fc")
 		)
 		(pin "PWM_L_B" input
 			(at 175.26 99.06 180)
@@ -478,7 +287,7 @@
 				)
 				(justify left)
 			)
-			(uuid "eabf8630-b58f-4b75-b729-3ec6ef922e1e")
+			(uuid "347aefbd-7d8b-461a-9484-9d8497d936a7")
 		)
 		(pin "PWM_H_C" input
 			(at 175.26 107.95 180)
@@ -488,7 +297,7 @@
 				)
 				(justify left)
 			)
-			(uuid "951c01d2-fc07-4d02-b74a-742de5dc9cd9")
+			(uuid "47f2ff00-a5ae-4b76-bb6a-4579903504b1")
 		)
 		(pin "PWM_H_B" input
 			(at 175.26 96.52 180)
@@ -498,7 +307,7 @@
 				)
 				(justify left)
 			)
-			(uuid "fce38ddf-e5a2-4b64-aade-cb535328fb8c")
+			(uuid "7df3e7f7-bdaa-43bf-ad33-dbb6722005ae")
 		)
 		(pin "PWM__H_A" input
 			(at 175.26 82.55 180)
@@ -508,7 +317,7 @@
 				)
 				(justify left)
 			)
-			(uuid "fbb4e63e-2c80-4b91-9ff7-d92506bcc29a")
+			(uuid "52114752-0bd4-43ff-aef2-37c28a3cc91c")
 		)
 		(pin "PWM__L_A" input
 			(at 175.26 85.09 180)
@@ -518,7 +327,7 @@
 				)
 				(justify left)
 			)
-			(uuid "e1af8ea5-2738-4dd7-945f-6ed7e56c504c")
+			(uuid "96626aaf-f5f6-420a-b1e0-3fd4296e358c")
 		)
 		(pin "ZC_C" input
 			(at 175.26 105.41 180)
@@ -528,7 +337,7 @@
 				)
 				(justify left)
 			)
-			(uuid "db6e08af-bacf-49e2-a085-dc7051caaff5")
+			(uuid "37d334fe-0f53-44b3-ad40-568571a9e5e6")
 		)
 		(pin "VGND" input
 			(at 210.82 109.22 0)
@@ -538,12 +347,21 @@
 				)
 				(justify right)
 			)
-			(uuid "0aeddc05-1108-400a-a092-3e79247c9649")
+			(uuid "4f0b600b-1366-473a-a77f-23b728ff8da3")
 		)
 		(instances
 			(project "ESC"
 				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
 					(page "3")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/67868d63-a0ad-4135-884b-a4305faec098"
+					(page "10")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/f0f91033-e6f6-4ba6-a242-b2d52399ba4f"
+					(page "16")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/e90d83da-778a-41e9-b4cb-1e16efdba290"
+					(page "22")
 				)
 			)
 		)
@@ -586,7 +404,7 @@
 				)
 				(justify left)
 			)
-			(uuid "ffc990c8-4d75-49b9-8762-c8c640980cb5")
+			(uuid "d43dda19-bf8b-44e7-b4bc-36b97dc89a57")
 		)
 		(pin "ZC_B" input
 			(at 115.57 93.98 0)
@@ -596,7 +414,7 @@
 				)
 				(justify right)
 			)
-			(uuid "99dc56c6-74f4-4c68-99ec-b7e461a501ac")
+			(uuid "f606b8f6-aafc-4797-bf69-eb26b8b8c41b")
 		)
 		(pin "ZC_C" input
 			(at 115.57 105.41 0)
@@ -606,7 +424,7 @@
 				)
 				(justify right)
 			)
-			(uuid "f1007a2c-4529-4114-b28e-6205a9995ca3")
+			(uuid "5be87d5a-1c23-409b-8bf1-58c77e6f9a6b")
 		)
 		(pin "ZC_A" input
 			(at 115.57 80.01 0)
@@ -616,7 +434,7 @@
 				)
 				(justify right)
 			)
-			(uuid "37996bc3-35f8-421b-bd1c-fd56ce63f60a")
+			(uuid "7715c976-f1d2-46dc-a719-6548b645138d")
 		)
 		(pin "SWD_IO" input
 			(at 77.47 93.98 180)
@@ -626,7 +444,7 @@
 				)
 				(justify left)
 			)
-			(uuid "fa1598e9-07a7-4687-bb5c-b57b139bb5e7")
+			(uuid "574d31a5-9a83-429c-ba72-8fe692fa782f")
 		)
 		(pin "SWD_CLK" input
 			(at 77.47 91.44 180)
@@ -636,7 +454,7 @@
 				)
 				(justify left)
 			)
-			(uuid "3e021a76-c67e-49d7-8be6-a9c1c8e69285")
+			(uuid "5a1a844f-5a9b-4c5b-9ff6-e3074ccbeb57")
 		)
 		(pin "DShot" input
 			(at 77.47 78.74 180)
@@ -646,7 +464,7 @@
 				)
 				(justify left)
 			)
-			(uuid "64f67d34-8e6f-45ea-b277-e2f1ed64028c")
+			(uuid "3fa87cff-c662-4b33-a54c-e1f063c7f7e4")
 		)
 		(pin "PWM_L_B" input
 			(at 115.57 99.06 0)
@@ -656,7 +474,7 @@
 				)
 				(justify right)
 			)
-			(uuid "8a4a4474-5d9f-4847-a35e-2064b9b575cf")
+			(uuid "c0278b1b-6c73-408c-8261-86ca5460f4c1")
 		)
 		(pin "PWM_L_A" input
 			(at 115.57 85.09 0)
@@ -666,7 +484,7 @@
 				)
 				(justify right)
 			)
-			(uuid "40c34769-29cc-4098-a66d-cf709067ed16")
+			(uuid "d43272cd-e711-4fe0-aeb8-2a2d7b4199a2")
 		)
 		(pin "PWM_H_A" input
 			(at 115.57 82.55 0)
@@ -676,7 +494,7 @@
 				)
 				(justify right)
 			)
-			(uuid "2b6e7722-fca8-4584-8d10-16dcf0b9e68f")
+			(uuid "6fe0ead3-1718-43bf-a82e-9b9fca9e6ff7")
 		)
 		(pin "PWM_H_C" input
 			(at 115.57 107.95 0)
@@ -686,7 +504,7 @@
 				)
 				(justify right)
 			)
-			(uuid "60082c09-c9b2-482e-9459-7da1c5361c5c")
+			(uuid "1e34a2ed-9671-4298-b125-d974c0db899f")
 		)
 		(pin "PWM_H_B" input
 			(at 115.57 96.52 0)
@@ -696,7 +514,7 @@
 				)
 				(justify right)
 			)
-			(uuid "89270c1f-2919-4282-aedc-8559fe8d631d")
+			(uuid "35e2c4ad-845e-41ea-9291-7f29af99151c")
 		)
 		(pin "VGND" input
 			(at 77.47 110.49 180)
@@ -706,7 +524,7 @@
 				)
 				(justify left)
 			)
-			(uuid "63b4c2e8-7420-4c48-bb39-8c8379b5e005")
+			(uuid "ca209f45-3fa1-4b07-a6c1-2583c1f511b6")
 		)
 		(pin "PWM_L_C" input
 			(at 115.57 110.49 0)
@@ -716,12 +534,21 @@
 				)
 				(justify right)
 			)
-			(uuid "d5b93e18-f410-47a6-b30f-bf26e907b979")
+			(uuid "615ebcce-8453-4953-90c5-39112a87b564")
 		)
 		(instances
 			(project "ESC"
 				(path "/0e826802-e676-4548-b85d-7973e5fc1500/dd4480c0-fc92-4865-b71a-49548ede0e1d"
 					(page "7")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/67868d63-a0ad-4135-884b-a4305faec098"
+					(page "14")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/f0f91033-e6f6-4ba6-a242-b2d52399ba4f"
+					(page "20")
+				)
+				(path "/0e826802-e676-4548-b85d-7973e5fc1500/e90d83da-778a-41e9-b4cb-1e16efdba290"
+					(page "26")
 				)
 			)
 		)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.3,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.2032,
+          "height": 0.499999,
+          "width": 0.499999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,16 +48,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -177,9 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -470,8 +457,14 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Sub_ESC/Driver Output/A": "rgb(32, 255, 22)"
+    },
     "netclass_assignments": {
+      "/DShot1": "DShot",
+      "/DShot2": "DShot",
+      "/DShot3": "DShot",
+      "/DShot4": "DShot",
       "/Sub_ESC/DShot": "DShot"
     },
     "netclass_patterns": []
@@ -621,6 +614,78 @@
     [
       "dd4480c0-fc92-4865-b71a-49548ede0e1d",
       "Sub_ESC"
+    ],
+    [
+      "67868d63-a0ad-4135-884b-a4305faec098",
+      "Sub_ESC1"
+    ],
+    [
+      "19fc4039-501c-46b5-9242-d3e591e070ab",
+      "Driver Output"
+    ],
+    [
+      "840f3c62-7d74-48a5-bf97-ca482e961bf6",
+      "Half Bridge - 6S 50A - 1"
+    ],
+    [
+      "af85bcb3-9417-47fd-860e-08189515815f",
+      "Half Bridge - 6S 50A - 3"
+    ],
+    [
+      "de6cc9c6-f78e-48df-abff-e1ee50f8ac8e",
+      "Half Bridge - 6S 50A - 2"
+    ],
+    [
+      "ce85d30a-5b72-4428-9ad8-811f15b427f8",
+      "MCU"
+    ],
+    [
+      "f0f91033-e6f6-4ba6-a242-b2d52399ba4f",
+      "Sub_ESC2"
+    ],
+    [
+      "19fc4039-501c-46b5-9242-d3e591e070ab",
+      "Driver Output"
+    ],
+    [
+      "840f3c62-7d74-48a5-bf97-ca482e961bf6",
+      "Half Bridge - 6S 50A - 1"
+    ],
+    [
+      "af85bcb3-9417-47fd-860e-08189515815f",
+      "Half Bridge - 6S 50A - 3"
+    ],
+    [
+      "de6cc9c6-f78e-48df-abff-e1ee50f8ac8e",
+      "Half Bridge - 6S 50A - 2"
+    ],
+    [
+      "ce85d30a-5b72-4428-9ad8-811f15b427f8",
+      "MCU"
+    ],
+    [
+      "e90d83da-778a-41e9-b4cb-1e16efdba290",
+      "Sub_ESC3"
+    ],
+    [
+      "19fc4039-501c-46b5-9242-d3e591e070ab",
+      "Driver Output"
+    ],
+    [
+      "840f3c62-7d74-48a5-bf97-ca482e961bf6",
+      "Half Bridge - 6S 50A - 1"
+    ],
+    [
+      "af85bcb3-9417-47fd-860e-08189515815f",
+      "Half Bridge - 6S 50A - 3"
+    ],
+    [
+      "de6cc9c6-f78e-48df-abff-e1ee50f8ac8e",
+      "Half Bridge - 6S 50A - 2"
+    ],
+    [
+      "ce85d30a-5b72-4428-9ad8-811f15b427f8",
+      "MCU"
     ]
   ],
   "text_variables": {}
